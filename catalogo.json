@@ -1,0 +1,300 @@
+[
+  {
+    "id": "openrouter",
+    "nombre": "OpenRouter",
+    "tipo": "puerto-nube-openai",
+    "icono": "🌐",
+    "enlaces": {
+      "cuenta": "https://openrouter.ai/keys",
+      "precios": "https://openrouter.ai/models",
+      "limites": "https://openrouter.ai/docs/api_reference/limits"
+    },
+    "campos": [
+      {
+        "id": "apiKey",
+        "etiqueta": "Tu clave de OpenRouter"
+      }
+    ],
+    "pasos": [
+      "detectar-si-ya-esta",
+      "guiar-crear-cuenta",
+      "guardar-clave",
+      "config-opencode",
+      "test-PONG",
+      "autostart"
+    ],
+    "endpoint": "https://openrouter.ai/api/v1",
+    "prueba": "key",
+    "modelos": [
+      {
+        "id": "apodex/apodex-1.1-mini:free",
+        "limites": "20 peticiones por minuto · 50 al día (1.000 al día si ya compraste 10 dólares en créditos)"
+      },
+      {
+        "id": "dots-studio/dots-3-note-preview:free",
+        "limites": "20 peticiones por minuto · 50 al día (1.000 al día si ya compraste 10 dólares en créditos)"
+      },
+      {
+        "id": "liquid/lfm-2.5-2.6b:free",
+        "limites": "20 peticiones por minuto · 50 al día (1.000 al día si ya compraste 10 dólares en créditos)"
+      },
+      {
+        "id": "nvidia/nemotron-3.5-lightning:free",
+        "limites": "20 peticiones por minuto · 50 al día (1.000 al día si ya compraste 10 dólares en créditos)"
+      },
+      {
+        "id": "thinkingmachines/inkling-small:free",
+        "limites": "20 peticiones por minuto · 50 al día (1.000 al día si ya compraste 10 dólares en créditos)"
+      },
+      {
+        "id": "poolside/laguna-s-2.1:free",
+        "limites": "20 peticiones por minuto · 50 al día (1.000 al día si ya compraste 10 dólares en créditos)"
+      },
+      {
+        "id": "thinkingmachines/inkling:free",
+        "limites": "20 peticiones por minuto · 50 al día (1.000 al día si ya compraste 10 dólares en créditos)"
+      },
+      {
+        "id": "poolside/laguna-xs-2.1:free",
+        "limites": "20 peticiones por minuto · 50 al día (1.000 al día si ya compraste 10 dólares en créditos)"
+      },
+      {
+        "id": "cohere/north-mini-code:free",
+        "limites": "20 peticiones por minuto · 50 al día (1.000 al día si ya compraste 10 dólares en créditos)"
+      },
+      {
+        "id": "nvidia/nemotron-3.5-content-safety:free",
+        "limites": "20 peticiones por minuto · 50 al día (1.000 al día si ya compraste 10 dólares en créditos)"
+      },
+      {
+        "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "limites": "20 peticiones por minuto · 50 al día (1.000 al día si ya compraste 10 dólares en créditos)"
+      },
+      {
+        "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+        "limites": "20 peticiones por minuto · 50 al día (1.000 al día si ya compraste 10 dólares en créditos)"
+      },
+      {
+        "id": "google/gemma-4-26b-a4b-it:free",
+        "limites": "20 peticiones por minuto · 50 al día (1.000 al día si ya compraste 10 dólares en créditos)"
+      },
+      {
+        "id": "google/gemma-4-31b-it:free",
+        "limites": "20 peticiones por minuto · 50 al día (1.000 al día si ya compraste 10 dólares en créditos)"
+      },
+      {
+        "id": "nvidia/nemotron-3-super-120b-a12b:free",
+        "limites": "20 peticiones por minuto · 50 al día (1.000 al día si ya compraste 10 dólares en créditos)"
+      }
+    ]
+  },
+  {
+    "id": "omniroute",
+    "nombre": "OmniRoute",
+    "tipo": "agregador-propio",
+    "icono": "🔁",
+    "enlaces": {
+      "cuenta": "https://github.com/diegosouzapw/OmniRoute",
+      "limites": "https://github.com/diegosouzapw/OmniRoute"
+    },
+    "campos": [],
+    "pasos": [
+      "instalar-programa",
+      "comprobar-puertos",
+      "autostart",
+      "test-PONG"
+    ],
+    "endpoint": "http://localhost:20128",
+    "variable": "OMNIROUTE_API_KEY",
+    "paquete": "omniroute"
+  },
+  {
+    "id": "ollama",
+    "nombre": "Ollama",
+    "tipo": "runtime-local",
+    "icono": "🖥️",
+    "enlaces": {
+      "cuenta": "https://ollama.com/download",
+      "limites": "https://ollama.com/library"
+    },
+    "campos": [],
+    "pasos": [
+      "comprobar-endpoint",
+      "preparar-modelo",
+      "test-PONG"
+    ],
+    "endpoint": "http://localhost:11434",
+    "modelo": "qwen2.5-coder:7b"
+  },
+  {
+    "id": "groq",
+    "nombre": "Groq",
+    "tipo": "puerto-nube-openai",
+    "icono": "⚡",
+    "enlaces": {
+      "cuenta": "https://console.groq.com/keys",
+      "limites": "https://console.groq.com/docs/rate-limits"
+    },
+    "campos": [
+      {
+        "id": "apiKey",
+        "etiqueta": "Tu clave de Groq"
+      }
+    ],
+    "pasos": [
+      "detectar-si-ya-esta",
+      "guiar-crear-cuenta",
+      "guardar-clave",
+      "config-opencode",
+      "test-PONG",
+      "autostart"
+    ],
+    "endpoint": "https://api.groq.com/openai/v1",
+    "modelos": [
+      {
+        "id": "openai/gpt-oss-120b",
+        "limites": "30 consultas por minuto · 1.000 al día · 8.000 fragmentos de texto por minuto · 200.000 al día"
+      },
+      {
+        "id": "openai/gpt-oss-20b",
+        "limites": "30 consultas por minuto · 1.000 al día · 8.000 fragmentos de texto por minuto · 200.000 al día"
+      },
+      {
+        "id": "qwen/qwen3.8-27b",
+        "limites": "30 consultas por minuto · 1.000 al día · 8.000 fragmentos de texto por minuto · 200.000 al día"
+      }
+    ]
+  },
+  {
+    "id": "lmstudio",
+    "nombre": "LM Studio",
+    "tipo": "runtime-local",
+    "icono": "🧪",
+    "enlaces": {
+      "cuenta": "https://lmstudio.ai/download",
+      "limites": "https://lmstudio.ai/"
+    },
+    "campos": [],
+    "pasos": [
+      "comprobar-endpoint",
+      "test-PONG"
+    ],
+    "endpoint": "http://localhost:1234"
+  },
+  {
+    "id": "mistral",
+    "nombre": "Mistral",
+    "tipo": "puerto-nube-openai",
+    "icono": "🌬️",
+    "enlaces": {
+      "cuenta": "https://docs.mistral.ai/getting-started/quickstart/",
+      "limites": "https://docs.mistral.ai/inference/pricing/"
+    },
+    "campos": [
+      {
+        "id": "apiKey",
+        "etiqueta": "Tu clave de Mistral"
+      }
+    ],
+    "pasos": [
+      "detectar-si-ya-esta",
+      "guiar-crear-cuenta",
+      "guardar-clave",
+      "config-opencode",
+      "test-PONG",
+      "autostart"
+    ],
+    "endpoint": "https://api.mistral.ai/v1",
+    "modelos": [
+      {
+        "id": "mistral-small-latest",
+        "limites": "Los límites de uso cambian con el tiempo: verifícalos en la web oficial de Mistral."
+      },
+      {
+        "id": "mistral-large-latest",
+        "limites": "Los límites de uso cambian con el tiempo: verifícalos en la web oficial de Mistral."
+      }
+    ]
+  },
+  {
+    "id": "freellmapi",
+    "nombre": "FreeLLMAPI",
+    "tipo": "puerto-nube-openai",
+    "icono": "🗝️",
+    "enlaces": {
+      "cuenta": "https://freellmapi.co/how-to-get-a-free-llm-api-key",
+      "limites": "https://freellmapi.co/models",
+      "modelo-auto": "https://freellmapi.co/models",
+      "modelo-default": "https://freellmapi.co/model/default",
+      "modelo-gpt-oss": "https://freellmapi.co/model/gpt-oss-120b"
+    },
+    "campos": [
+      {
+        "id": "apiKey",
+        "etiqueta": "Tu llave de FreeLLMAPI"
+      }
+    ],
+    "pasos": [
+      "detectar-si-ya-esta",
+      "guiar-crear-cuenta",
+      "guardar-clave",
+      "config-opencode",
+      "test-PONG"
+    ],
+    "endpoint": "http://localhost:3001",
+    "modelos": [
+      {
+        "id": "auto",
+        "limites": "El router elige el mejor modelo gratis que aún no haya llegado a su límite; cada proveedor pone el suyo: verifícalos en la web oficial."
+      },
+      {
+        "id": "default",
+        "limites": "El proveedor LLM7 presupuesta unos 2.000.000 de fragmentos de texto al mes (60-100 por hora) · 40 consultas por minuto · el catálogo gratis se actualiza una vez al mes"
+      },
+      {
+        "id": "gpt-oss-120b",
+        "limites": "Según el proveedor que lo sirva: unos 18.000.000 a 45.000.000 de fragmentos al mes (Cloudflare) o 30 consultas por minuto (Groq) · el catálogo gratis se actualiza una vez al mes"
+      }
+    ]
+  },
+  {
+    "id": "together",
+    "nombre": "Together",
+    "tipo": "puerto-nube-openai",
+    "icono": "🤝",
+    "enlaces": {
+      "cuenta": "https://api.together.ai/settings/projects/~current/api-keys",
+      "precios": "https://www.together.ai/pricing",
+      "limites": "https://docs.together.ai/docs/billing-credits"
+    },
+    "campos": [
+      {
+        "id": "apiKey",
+        "etiqueta": "Tu clave de Together"
+      }
+    ],
+    "pasos": [
+      "detectar-si-ya-esta",
+      "guiar-crear-cuenta",
+      "guardar-clave",
+      "config-opencode",
+      "test-PONG",
+      "autostart"
+    ],
+    "endpoint": "https://api.together.ai/v1",
+    "modelos": [
+      {
+        "id": "moonshotai/Kimi-K3",
+        "limites": "No es gratis: hay que comprar crédito desde 15 dólares (prepago; verifica el precio actual en together.ai/pricing)"
+      },
+      {
+        "id": "zai-org/GLM-5.3",
+        "limites": "No es gratis: hay que comprar crédito desde 15 dólares (prepago; verifica el precio actual en together.ai/pricing)"
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+        "limites": "No es gratis: hay que comprar crédito desde 15 dólares (prepago; verifica el precio actual en together.ai/pricing)"
+      }
+    ]
+  }
+]
