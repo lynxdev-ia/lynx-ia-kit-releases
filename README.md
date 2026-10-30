@@ -3,6 +3,8 @@
 Aquí solo se publican los **instaladores** de LYNX IA KIT (Windows) y su
 **catálogo de plataformas** (`catalogo.json`). El código de la app es privado.
 
+📖 **[Manual de usuario](MANUAL.md)**: qué hace el kit y cómo usarlo, paso a paso. También está dentro de la app (botón **📖 Manual**).
+
 ## Instalar
 
 1. Entra en **Releases** (a la derecha) y descarga `LYNX-IA-KIT-Setup-X.Y.Z.exe`.
