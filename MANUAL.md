@@ -1,6 +1,6 @@
 # Manual de usuario — LYNX IA KIT 🐾
 
-*Versión 0.2.2 · octubre de 2026 · para Windows 10 y 11 (64 bits)*
+*Versión 0.2.4 · octubre de 2026 · para Windows 10 y 11 (64 bits)*
 
 Hola, soy **Lynx**, el lince que te acompaña. Este manual te cuenta qué hace
 LYNX IA KIT y cómo usarlo, paso a paso y sin palabras raras.
@@ -44,7 +44,7 @@ Hace dos cosas:
 
 ## 3. Instalar la aplicación
 
-1. Descarga el archivo **`LYNX-IA-KIT-Setup-0.2.2.exe`** desde
+1. Descarga el archivo **`LYNX-IA-KIT-Setup-0.2.4.exe`** desde
    **https://github.com/lynxdev-ia/lynx-ia-kit-releases/releases/latest**
    (o desde donde te lo hayan compartido).
 2. Haz doble clic en el archivo.
@@ -127,10 +127,10 @@ Muestra las 7 comprobaciones con su símbolo ✓ / ⚠ / ✗.
 - **REPARAR**: arregla lo que falte. Si todo está bien, el mismo botón vuelve a
   comprobar.
 - **Reiniciar servicio**: aparece si el servidor de IA no responde.
-- **📋 Copiar informe para soporte**: copia un resumen del estado de tu PC para
-  que lo pegues (**Ctrl+V**) en un mensaje a quien te ayuda. **No lleva tu
-  clave, ni tus conversaciones, ni tu nombre de usuario.** No se envía a
-  ningún sitio: solo se copia.
+- **📋 Copiar informe para soporte**: copia un resumen del estado de tu PC, y
+  de los últimos problemas que Lynx te mostró, para que lo pegues (**Ctrl+V**)
+  en un mensaje a quien te ayuda. **No lleva tu clave, ni tus conversaciones,
+  ni tu nombre de usuario.** No se envía a ningún sitio: solo se copia.
 
 ### 💬 Probar — tu asistente de oficina
 Aquí hablas con tu IA.
