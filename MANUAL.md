@@ -1,6 +1,6 @@
 # Manual de usuario — LYNX IA KIT 🐾
 
-*Versión 0.2.5 · octubre de 2026 · para Windows 10 y 11 (64 bits)*
+*Versión 0.2.6 · octubre de 2026 · para Windows 10 y 11 (64 bits)*
 
 Hola, soy **Lynx**, el lince que te acompaña. Este manual te cuenta qué hace
 LYNX IA KIT y cómo usarlo, paso a paso y sin palabras raras.
@@ -52,7 +52,7 @@ Hace dos cosas:
 
 ## 3. Instalar la aplicación
 
-1. Descarga el archivo **`LYNX-IA-KIT-Setup-0.2.5.exe`** desde
+1. Descarga el archivo **`LYNX-IA-KIT-Setup-0.2.6.exe`** desde
    **https://github.com/lynxdev-ia/lynx-ia-kit-releases/releases/latest**
    (o desde donde te lo hayan compartido).
 2. Haz doble clic en el archivo.
@@ -220,6 +220,31 @@ Aquí hablas con tu IA.
   - Lynx te avisa dónde va tu archivo: con un modelo **local** no sale de tu PC;
     con un modelo **en la nube** se envía a ese proveedor.
 - **NUEVA CONVERSACIÓN**: empieza de cero.
+
+#### 📝 Corregir un documento
+
+En 💬 Probar, pulsa **📝 Corregir un documento**:
+
+1. Pulsa **📎 Elegir documento** (Word, PDF o texto) o **pega el texto** en el
+   recuadro, y pulsa **CORREGIR**. Lynx revisa la ortografía, las tildes, la
+   puntuación y la redacción. Un documento largo se revisa por partes; verás el
+   avance.
+2. Verás **dos columnas**: a la izquierda el **Original** (lo que se quita,
+   **tachado**) y a la derecha el **Corregido** (lo que se pone, **subrayado**,
+   con **✓**).
+3. **Tú decides cada cambio**: pulsa uno de la derecha para **rechazarlo** (✗,
+   vuelve lo que tenías) o para aceptarlo otra vez. También hay **✓ Aceptar
+   todos** y **✗ Rechazar todos**.
+4. Cuando estés de acuerdo:
+   - **📋 COPIAR TEXTO FINAL**: copia el texto con solo los cambios que
+     aceptaste. Ve a tu documento, selecciona el texto viejo y pega (**Ctrl+V**):
+     así **conservas tu formato**.
+   - **💾 Guardar como Word**: guarda un Word **nuevo** con el texto final. Lleva
+     el texto, pero **no el formato del original** (tipos de letra, tablas,
+     imágenes).
+
+Tu documento original **nunca se modifica**. La IA puede equivocarse: revisa
+cada cambio antes de aceptarlo.
 
 > 🐾 **Un consejo de Lynx:** lo que escribe cualquier IA puede traer errores.
 > Léelo con calma y dale tu visto bueno antes de usarlo. Tú tienes la última
